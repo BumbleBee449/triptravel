@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Star"
+    android:background="@drawable/starb">
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="315dp"
+        android:layout_height="109dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="The Star Hotel"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <RatingBar
+
+        android:id="@+id/ratingBar"
+        android:layout_width="246dp"
+        android:layout_height="47dp"
+        android:numStars="5"
+        android:progressTint="#FDD835"
+        android:rating="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Located in the heart of the city, Star Hotel Taksim is just a few steps from Taksim Square. It offers air-conditioned rooms with free Wi-Fi, and has a 24-hour front desk.
+
+Star rooms feature blackout curtains for a restful night’s sleep. Rooms come equipped with simple furnishings, central heating and LED TV. Some rooms have windows with panoramic city views. Hotel offers smoking and non-smoking rooms.
+
+In the morning the hotel serves a rich continental breakfast. Star Hotel Taksim also has a café bar that offers alcoholic and non-alcoholic drinks.
+
+Guests can benefit from the hotel’s dry cleaning, ironing and room service at an additional charge. At the tour desk, the friendly staff provides information on local attractions, and assists with car hire.
+
+The lively streets of Istiklal Avenue are just a 4-minute walk from Star Hotel Taksim. Ataturk Airport is situated 17 km away. A private airport transfer service can be arranged upon request."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="299dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:text="Book this Hotel"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="#2E2B8E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

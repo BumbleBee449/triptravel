@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sanfransisco">
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="292dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sanco" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="San Francisco"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#252323"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="45dp"
+        android:onClick="move"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="403dp"
+        android:layout_height="452dp"
+        android:layout_marginTop="288dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="San Francisco (/ˌsæn frənˈsɪskoʊ/; Spanish for 'Saint Francis'), officially the City and County of San Francisco, is a commercial and cultural center in the northern region of the U.S. state of California. The city proper is the 17th most populous in the United States, and the fourth most populous in California, with 815,201 residents as of 2021. It covers a land area of 46.9 square miles (121 square kilometers), at the end of the San Francisco Peninsula, making it the second most densely populated large U.S. city after New York City, and the fifth most densely populated U.S. county, behind only four of the five New York City boroughs. Among the 331 U.S. cities proper with more than 100,000 residents, San Francisco was ranked first by per capita income (at $133,856[23]) and fifth by aggregate income as of 2019. Colloquial nicknames for San Francisco include SF, The City, and Frisco.
+
+San Francisco and the surrounding San Francisco Bay Area are a global center of economic activity and the arts and sciences, spurred by leading universities,high-tech, healthcare, FIRE, and professional services sectors. As of 2018, the metropolitan area, with 6.7 million residents, ranked 6th by GDP ($884 billion) and first by GDP per capita ($131,538) across the OECD group of countries, ahead of global cities like London, Singapore, or Hong Kong."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="299dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:text="Start booking your trip"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="#2E2B8E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="bookhotels"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

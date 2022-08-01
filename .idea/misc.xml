@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/drawable-v24/ic_baseline_menu_24.xml" value="0.1775" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.1775" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_about_hotel.xml" value="0.1" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_aviro.xml" value="0.1" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_bus.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_choose.xml" value="0.17046413502109706" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_dal_lake.xml" value="0.41168289290681503" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_delta.xml" value="0.1" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_flights.xml" value="0.3911671924290221" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_flyingfee.xml" value="0.1" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_gomovers.xml" value="0.1" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_homescreen.xml" value="0.28705882352941176" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_hotel.xml" value="0.4475597092419522" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_indiagate.xml" value="0.17719298245614035" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_london.xml" value="0.25" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_maps.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_merica.xml" value="0.1" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_mughalgarden.xml" value="0.25" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_munna.xml" value="0.33" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_nilgiri.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_places.xml" value="0.25" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_royal.xml" value="0.17264957264957265" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_sanfransisco.xml" value="0.67" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_shortb_main2.xml" value="0.1" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_shortf.xml" value="0.1" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_skyhigh.xml" value="0.1" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_star.xml" value="0.25" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_tomb.xml" value="0.33" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_train.xml" value="0.25" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/layout/activity_venenzula.xml" value="0.585635359116022" />
+        <entry key="..\:/Users/Harshit/AndroidStudioProjects/triptravel/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1785" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

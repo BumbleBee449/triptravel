@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DalLake"> <ImageView
+    android:id="@+id/imageView12"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="296dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:srcCompat="@drawable/dall" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dal Lake"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="About"
+        android:textColor="#4A4848"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="62dp"
+        android:onClick="move"
+        android:layout_height="43dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="390dp"
+        android:layout_height="466dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Dal is a lake in Srinagar, the summer capital of Jammu and Kashmir. It is an urban lake, the second largest lake in Jammu and Kashmir, and the most visited place in Srinagar by tourists and locals. It is integral to tourism and recreation in the Kashmir valley and is variously known as the Lake of Flowers, Jewel in the crown of Kashmir Srinagar Jewel. The lake is also an important source for commercial operations in fishing and water plant harvesting.
+
+The shore line of the lake, about 15.5 kilometres (9.6 mi), is encompassed by a boulevard lined with Mughal era gardens, parks, houseboats and hotels. Scenic views of the lake can be witnessed from the shore line Mughal gardens, such as Shalimar Bagh and Nishat Bagh built during the reign of Mughal Emperor Jahangir, and from houseboats cruising along the lake in the colourful shikaras. During the winter season, the temperature can sometimes reach as low as −11 °C (12 °F), freezing the lake.
+
+The lake covers an area of 18 square kilometres (6.9 sq mi) and is part of a natural wetland which covers 21.1 square kilometres (8.1 sq mi), including its floating gardens. The floating gardens, known as 'Rad' in Kashmiri, blossom with lotus flowers during July and August. The wetland is divided by causeways into four basins; Gagribal, Lokut Dal, Bod Dal and Nigeen (although Nigeen is also considered as an independent lake). Lokut Dal and Bod Dal each have an island in the centre, known as Rupa Lank (or Char Chinari) and Sona Lank respectively."
+        android:textColor="#2B2929"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="299dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:text="Start booking your trip"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="#2E2B8E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="bookhotels"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nilgiri">
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="416dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/nilg" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilgiri Hills"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#302E2E"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:onClick="Back"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="394dp"
+        android:layout_height="574dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="224dp"
+        android:text="The high steppes of the Nilgiri Hills have been inhabited since prehistoric times, demonstrated by a large number of artifacts unearthed by excavators. A particularly important collection from the region can be seen in the British Museum, including those assembled by colonial officers James Wilkinson Breeks, Major M. J. Walhouse and Sir Walter Elliot.
+
+The first recorded use of the word Nila applied to this region can be traced back to 1117 CE. In the report of a general of Vishnuvardhana, King of Hoysalas, who in reference to his enemies, claimed to have frightened the Todas, driven the Kongas underground, slaughtered the Poluvas, put to death the Maleyalas, terrified Chieftain Kala Nirpala and then proceeded to offer the peak of Nila Mountain (presumably Doddabetta or Rangaswami peak of Peranganad in East Nilgiris) to Lakshmi, Goddess of Wealth.
+
+    A hero stone (Veeragallu) with a Kannada inscription at Vazhaithottam (Bale thota) in the Nilgiri District, dated to 10th century CE, has been discovered.[9] A Kannada inscription of Hoysala king Ballala III (or his subordinate Madhava Dannayaka's son) from the 14th century CE has been discovered at the Siva (or Vishnu) temple at Nilagiri Sadarana Kote (present-day Dannayakana Kote), near the junction of Moyar and Bhavani rivers, but the temple has since been submerged by the Bhavani Sagar dam.
+
+    In 1814, as part of the Great Trigonometrical Survey, a sub-assistant named Keys and an apprentice named McMahon ascended the hills by the Danaynkeucottah (Dannayakana Kote) Pass, penetrated into the remotest parts, made plans, and sent in reports of their discoveries. As a result of these accounts, Messrs. Whish and Kindersley, two young Madras civilians, ventured up in pursuit of some criminals taking refuge in the mountains, and proceeded to observe the interior. They soon saw and felt enough favorable climate and terrain to excite their own curiosity, and that of others."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip1"
+        android:layout_width="299dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:text="Start booking your trip"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="#2E2B8E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="book"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

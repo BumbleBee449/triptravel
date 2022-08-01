@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mughalgarden">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mughal Garden"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="76dp"
+        android:layout_height="33dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="About"
+        android:textColor="#4A4848"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="384dp"
+        android:layout_height="398dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Mughal gardens are a type of gardens built by the Mughals. This style was influenced by the Persian gardens particularly the Charbagh structure, which is intended to create a representation of an earthly utopia in which humans co-exist in perfect harmony with all elements of nature.  Significant use of rectilinear layouts are made within the walled enclosures. Some of the typical features include pools, fountains and canals inside the gardens.The founder of the Mughal empire, Babur, described his favourite type of garden as a charbagh. The term bāgh, baug, bageecha or bagicha is used for the garden. This word developed a new meaning in South Asia, as the region lacked the fast-flowing streams required for the Central Asian charbagh. The Aram Bagh of Agra is thought to have been the first charbagh in South Asia.  From the beginnings of the Mughal Empire, the construction of gardens was a beloved imperial pastime.[3] Babur, the first Mughal conqueror-king, had gardens built in Lahore and Dholpur. Humayun, his son, does not seem to have had much time for building—he was busy reclaiming and increasing the realm—but he is known to have spent a great deal of time at his father’s gardens. Akbar built several gardens first in Delhi."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="299dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:text="Start booking your trip"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="#2E2B8E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="bookhotels"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="392dp"
+        android:layout_height="229dp"
+        android:background="@drawable/mughal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="62dp"
+        android:onClick="move"
+        android:layout_height="43dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+/>
+</androidx.constraintlayout.widget.ConstraintLayout>
