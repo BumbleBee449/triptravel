@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.triptravel">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Triptravel"
         tools:targetApi="31">
+        <activity
+            android:name=".displaydata"
+            android:exported="false" />
         <activity
             android:name=".bus"
             android:exported="false" />
@@ -47,7 +53,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBC3TpiP8dJm7cqkEzmw0-3ryGjKLMdTcU" />
+            android:value="AIzaSyC_AcWRcZXXcQ8jbrmf0Sfzumoy2eO42Bc" />
 
         <activity
             android:name=".MapsActivity"

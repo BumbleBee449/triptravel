@@ -54,4 +54,9 @@ public class Homescreen extends AppCompatActivity {
         Intent intent = new Intent(this, shortbMainActivity2.class);
         startActivity(intent);
     }
+
+    public void display(View view) {
+        Intent intent = new Intent(this, displaydata.class);
+        startActivity(intent);
+    }
 }
